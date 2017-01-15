@@ -16,10 +16,6 @@
 
     $scope.myMessage = function () {
       var len = checkEmptyItems($scope.name).length;
-      //$scope.checkEmpty = checkEmptyItems($scope.name.split(','));
-      //console.log(checkEmptyItems($scope.name));
-      //console.log(len);
-
       if ($scope.name == ""){
         $scope.message = "Please enter data first";
         $scope.FontColor="Red"
